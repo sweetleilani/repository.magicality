@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.ikigai" version="1.0" name="Ikigai" provider-name="Wilson Magic">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.resolveurl" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="animeincursion.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Ikigai - Anime is our reason for being, our ikigai.</summary>
+		<description lang="en">Ikigai, iterally "reason for being". Watch anime from masterani.me.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
