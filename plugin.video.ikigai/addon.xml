@@ -12,5 +12,9 @@
 		<summary lang="en">Ikigai - Anime is our reason for being, our ikigai.</summary>
 		<description lang="en">Ikigai, iterally "reason for being". Watch anime from masterani.me.</description>
 		<platform>all</platform>
+			<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    		</assets>
 	</extension>
 </addon>
