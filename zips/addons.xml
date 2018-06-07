@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.hentaihaven" name="Hentai Haven" version="1.0.0" provider-name="Wilson Magic">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.module.requests"/>
+	    <import addon="script.module.beautifulsoup4"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Hentai Haven - Everything else is irrelevant.</summary>
+		<description lang="en">Watch Hentai in high quality, for free provided my hentaihaven.org.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.ikigai" version="1.0" name="Ikigai" provider-name="Wilson Magic">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.resolveurl" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="animeincursion.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Ikigai</summary>
+		<description lang="en">Ikigai[CR][CR]Because anime is magical.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.magicality" name="Magicality Repo" version="1.0.0" provider-name="Wilson Magic">
+	<extension point="xbmc.addon.repository" name="Magicality Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/WilsonMagic/repository.magicality/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/WilsonMagic/repository.magicality/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/WilsonMagic/repository.magicality/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Magicality, for all your magical needs</summary>
+		<description lang="en">Magicality. The one place where you can get pretty much every anime, and hentai you could ever want on kodi.</description>
+		<genre>anime,kids,movies,tvshows,uk,usa</genre>
+	</extension>
+</addon>
+</addons>
